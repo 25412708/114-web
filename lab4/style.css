@@ -1,0 +1,73 @@
+/* 基本頁面設定 */
+body {
+    background-color: #e3f2fd; /* 淺藍色背景 */
+    font-family: "Microsoft JhengHei", sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #1976d2; /* 深藍色標題 */
+}
+
+/* 卡片式設計 */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card h2 {
+    color: #1565c0;
+    border-bottom: 2px solid #bbdefb;
+    padding-bottom: 10px;
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #bbdefb;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8ff;
+}
+
+/* 按鈕樣式 */
+.home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #1565c0;
+}
